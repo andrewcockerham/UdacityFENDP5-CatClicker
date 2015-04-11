@@ -7,7 +7,6 @@ var clicksArray = [0,0,0,0,0];
 // initialize cat list with cat names from namesArray
 for (var i = 0; i < namesArray.length; i++) {
 	var idString = 'catLink' + i;
-	console.log(idString.toString());
 	var catLink = document.getElementById(idString)
 	catLink.innerHTML = namesArray[i]
 };
